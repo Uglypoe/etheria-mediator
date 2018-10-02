@@ -6,16 +6,18 @@
   "author": "Uglypoe",
   "dependencies": {
     "discord.io": "^2.5.3",
+    "express": "4.16.3",
+    "foobar": "^1.1.0",
     "winston": "^3.1.0"
   },
   "devDependencies": {},
   "scripts": {
-	"test": "echo \"Error: no test specified\" && exit 1",
+    "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node bot.js"
   },
   "engines": {
-	{"node": "7.8.0"},
-	{"npm": "4.2.0"}
-  }
+    "node": "7.8.0",
+    "npm": "4.2.0"
+  },
   "license": "ISC"
 }
